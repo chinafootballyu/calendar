@@ -1,0 +1,24 @@
+{
+  "name": "calendar",
+  "main": "./src/index.js",
+  "description": "calendar generator",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "nyc mocha",
+    "debug": "mocha --debug-brk --inspect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chinafootballyu/calendar.git"
+  },
+  "author": "",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-plugin-istanbul": "^4.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "nyc": "^10.3.2"
+  }
+}
