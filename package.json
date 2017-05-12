@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "scripts": {
     "test": "nyc mocha",
-    "debug": "mocha --debug-brk --inspect"
+    "debug": "mocha --debug-brk --inspect",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
     "babel-register": "^6.24.1",
     "chai": "^3.5.0",
     "mocha": "^3.3.0",
-    "nyc": "^10.3.2"
+    "nyc": "^10.3.2",
+    "rollup": "^0.41.6"
   }
 }
