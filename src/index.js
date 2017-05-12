@@ -6,7 +6,7 @@ import {
 } from './utils.js';
 
 export default {
-    generate (year, month) {
+    monthDays (year, month) {
         const prev = getPrevMonth(year, month);
         const prevDays = getDays(prev.year, prev.month);
         const next = getNextMonth(year, month);

@@ -5,7 +5,7 @@ import calendar from '../src/index.js';
 
 describe('calendar', function () {
     it('202012', function () {
-        expect(calendar.generate(2020, 12)).eql([
+        expect(calendar.monthDays(2020, 12)).eql([
             [
                 {
                     year: 2020,
@@ -231,7 +231,7 @@ describe('calendar', function () {
         ]);
     });
     it('201705', function () {
-        expect(calendar.generate(2017, 5)).eql([
+        expect(calendar.monthDays(2017, 5)).eql([
             [
                 {
                     year: 2017,
@@ -457,7 +457,7 @@ describe('calendar', function () {
         ]);
     });
     it('200802', function () {
-        expect(calendar.generate(2008, 2)).eql([
+        expect(calendar.monthDays(2008, 2)).eql([
             [
                 {
                     year: 2008,
@@ -683,7 +683,7 @@ describe('calendar', function () {
         ]);
     });
     it('200001', function () {
-        expect(calendar.generate(2000, 1)).eql([
+        expect(calendar.monthDays(2000, 1)).eql([
             [
                 {
                     year: 1999,
@@ -909,7 +909,7 @@ describe('calendar', function () {
         ]);
     });
     it('202011', function () {
-        expect(calendar.generate(2020, 11)).eql([
+        expect(calendar.monthDays(2020, 11)).eql([
             [
                 {
                     year: 2020,

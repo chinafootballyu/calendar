@@ -7,7 +7,7 @@ import calendar from 'calendar';
 @param Number year: 1970~
 @param Number month: 1-12
 */
-const mouthDays = calendar.generate(2020, 12);
+const mouthDays = calendar.monthDays(2020, 12);
 
 /*
 mouthDays: 
